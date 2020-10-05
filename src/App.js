@@ -3,7 +3,6 @@ import React from 'react';
 
 import {Navbar} from '../src/components/navbar';
 import {Tables} from '../src/components/tables';
-import {favSongs} from '../src/components/favSongs';
 
 import {
   BrowserRouter as Router,
@@ -19,7 +18,6 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/favUsersSongs/:userId"><favSongs /></Route>
           <Route path="/">
                 <nav>
                     <Navbar />

@@ -28,7 +28,7 @@ export const Navbar = () => {
         <div className={classes.root}>
           <AppBar position="static" className={classes.bar}>
             <Toolbar>
-              <Typography variant="h4"  className={classes.title}>
+              <Typography variant="h5"  className={classes.title}>
                 Panel
               </Typography>
             </Toolbar>

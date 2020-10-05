@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import {ChargingData} from './charging';
 import { useHistory } from "react-router-dom";
 
+
 const useStyles = makeStyles((theme) => ({
     title: {
       flexGrow: 1,
@@ -27,6 +28,8 @@ export const Tables = () => {
 
     const [users, setUsers] = useState([]);
 
+    const [favSongs, setFavSongs] = useState([{}]);
+
     const handleData = async (e) => {
 
     const response = await fetch('http://localhost:4100/users',{
@@ -41,19 +44,12 @@ export const Tables = () => {
 
     handleData();
 
-    const userValid = (e) => {
-        if (e.email === users.email) {
-            return true;
-        }else{
-            return false;
-        }
-    }
 
+    const handleToFavoriteMusic = async (songId) => {
 
-    const handleToFavoriteMusic = (item) => {
-        if (userValid(item.email)) {
-            history.push(`/favUsersSongs/${item._id}`)
-        }
+        console.log(songId)
+        setFavSongs(songId)
+        
     }
 
 
@@ -88,7 +84,7 @@ export const Tables = () => {
                                                 <Button 
                                                     variant="contained" 
                                                     className={classes.button}
-                                                    onClick={(e)=> handleToFavoriteMusic(data)}
+                                                    onClick={()=> handleToFavoriteMusic(data._id)}
                                                     
                                                 >
                                                     Canciones Favoritas
@@ -108,6 +104,20 @@ export const Tables = () => {
 
                             )}
                         </tbody> 
+                    </table>
+                    <table className="table table-bordered">
+                        <thead className='table-head'>
+                            <tr>
+                                <th scope="col"><Typography className={classes.title} variant="title" >ID de la canción</Typography></th>
+                            </tr>
+                        </thead>
+                        <tbody className='table-body'>
+                                {
+                                    <tr>
+                                        {/* <th scope="col">{favSongs}</th> */}
+                                    </tr>
+                                }
+                        </tbody>
                     </table>
                     </div>
                 </div>
