@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FrontEndProyecto3MateaAcademy/static/css/main.3afd5c8b.chunk.css",
+    "main.js": "/FrontEndProyecto3MateaAcademy/static/js/main.db1618a9.chunk.js",
+    "main.js.map": "/FrontEndProyecto3MateaAcademy/static/js/main.db1618a9.chunk.js.map",
+    "runtime-main.js": "/FrontEndProyecto3MateaAcademy/static/js/runtime-main.3b625c27.js",
+    "runtime-main.js.map": "/FrontEndProyecto3MateaAcademy/static/js/runtime-main.3b625c27.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/FrontEndProyecto3MateaAcademy/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.1c93f845.chunk.js": "/FrontEndProyecto3MateaAcademy/static/js/2.1c93f845.chunk.js",
+    "static/js/2.1c93f845.chunk.js.map": "/FrontEndProyecto3MateaAcademy/static/js/2.1c93f845.chunk.js.map",
+    "index.html": "/FrontEndProyecto3MateaAcademy/index.html",
+    "precache-manifest.c6f26217489b80bd46888ad3bca10c48.js": "/FrontEndProyecto3MateaAcademy/precache-manifest.c6f26217489b80bd46888ad3bca10c48.js",
+    "service-worker.js": "/FrontEndProyecto3MateaAcademy/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/FrontEndProyecto3MateaAcademy/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.3afd5c8b.chunk.css.map": "/FrontEndProyecto3MateaAcademy/static/css/main.3afd5c8b.chunk.css.map",
+    "static/js/2.1c93f845.chunk.js.LICENSE.txt": "/FrontEndProyecto3MateaAcademy/static/js/2.1c93f845.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b625c27.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.1c93f845.chunk.js",
+    "static/css/main.3afd5c8b.chunk.css",
+    "static/js/main.db1618a9.chunk.js"
+  ]
+}
